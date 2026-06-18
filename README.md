@@ -46,9 +46,9 @@ The repository includes `.github/workflows/deploy.yml` for the official GitHub P
 
 Deployment setup:
 
-1. Create/push the repository as `turtle-wishlis`.
+1. Create/push the repository as `turtle-wishlist`.
 2. In GitHub, open **Settings > Pages**.
 3. Set **Source** to **GitHub Actions**.
 4. Push changes to the `main` branch, or run the workflow manually from **Actions**.
 
-The workflow runs `npm ci`, builds with `slidev build --base /turtle-wishlis/`, adds `dist/.nojekyll`, uploads `dist`, and deploys it to GitHub Pages.
+The workflow runs `npm ci`, builds with `slidev build --base /turtle-wishlist/`, adds `dist/.nojekyll`, uploads `dist`, and deploys it to GitHub Pages.

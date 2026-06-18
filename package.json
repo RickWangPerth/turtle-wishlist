@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build --base /turtle-wishlis/",
+    "build": "slidev build --base /turtle-wishlist/",
     "export": "slidev export"
   },
   "dependencies": {
